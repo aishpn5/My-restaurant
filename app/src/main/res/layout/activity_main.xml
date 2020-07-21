@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <ImageView
+        android:src="@drawable/food1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAM AND SPICY"
+        android:textStyle="bold"
+        android:textSize="48sp"
+        android:textColor="#FFF"
+        android:padding="16dp"
+        android:id="@+id/name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Exotic Indian, Chinese, Italian Food"
+        android:layout_below="@id/name"
+        android:textColor="#FFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:id="@+id/fod"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="128dp"
+        android:text="Free home delivery available"
+        android:layout_below="@id/fod"
+        android:textColor="#FFF000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:id="@+id/fod1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open from 11AM to 11PM"
+        android:paddingLeft="16dp"
+        android:layout_below="@id/fod1"
+        android:textColor="#FFF000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Address: 12 Park Street, Jamshedpur"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:id="@+id/fod2"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Contact: 9938406036"
+        android:layout_above="@id/fod2"
+        android:textColor="#FFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
