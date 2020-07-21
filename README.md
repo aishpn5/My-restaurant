@@ -1,4 +1,4 @@
-#My Restaurant Android App
+#my-restaurant
 
 PROJECT SPECIFICATION
 Build a Single Screen App
